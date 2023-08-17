@@ -75,34 +75,88 @@ public class CollectionsExercises {
 
         //  - return the stack
 
-        return integersStack; 
-    }
+        return integersStack; }
 
     public ArrayDeque<Integer> useArrayDeque() {
+
         // TODO: create an empty arrayDeque
 
+        ArrayDeque<Integer> intergerAD = new ArrayDeque<>(); 
+
         //  - add 5, 6, 8, 9 to the the stack
+
+        intergerAD.add(5); 
+        intergerAD.add(6);
+        intergerAD.add(8);
+        intergerAD.add(9);
+
         //  - print the first element of the queue on the screen
+
+        System.out.println(intergerAD.getFirst());
+
         //  - print the last element of the queue on the screen
+
+        System.out.println(intergerAD.getLast());
+
         //  - invoke the method poll() on the queue and print the result on the screen
+
+        System.out.println(intergerAD.poll());
+
+
         //  - invoke the element() method on the queue and print the result on the screen
+
+        System.out.println(intergerAD.element()); 
+
         //  - return the queue
-        throw new RuntimeException("Not implemented");
-    }
+        
+        return intergerAD; }
 
     public HashMap<Integer, String> useHashMap() {
         // TODO: create an empty hash map
+
+    HashMap<Integer, String> intergerHM = new HashMap<>();
+
         //  - add {1, TypeScript} entry to the map
+
+        intergerHM.put(1, "TypeScript");
+
         //  - add {2, Kotlin} entry to the map
+
+        intergerHM.put(2, "Kotlin");
+
         //  - add {3, Python} entry to the map
+
+        intergerHM.put(3, "Python");
         //  - add {4, Java} entry to the map
+
+        intergerHM.put(4, "Java");
+
         //  - add {5, JavaScript} entry to the map
+
+        intergerHM.put(5, "JavaScript");
+
         //  - add {6, Rust} entry to the map
+
+        intergerHM.put(6, "Rust");
+
         //  - determine the set of keys from the map and print it on the screen
+
+        System.out.println(intergerHM.keySet()); 
+
+        
         //  - determine the set of keys from the map and print it on the screen
+
+        System.out.println(intergerHM.values()); 
+
         //  - determine whether the map contains "English" as a language and print the result on the screen
+
+
+        System.out.println(intergerHM.get("English")); 
+
         //  - return the map
-        throw new RuntimeException("Not implemented");
+
+        return intergerHM; 
+
     }
 
     public String getName() {
