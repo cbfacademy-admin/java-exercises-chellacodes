@@ -1,6 +1,6 @@
 package com.cbfacademy;
 
-import java.io.*;
+import java.nio.*;
 
 public class FileReaderExample {
 
