@@ -1,0 +1,17 @@
+
+h1 {
+    font-size: 150%;
+    color: green;
+  }
+
+
+.fa-eye {
+
+margin-left: -30px; 
+cursor: pointer;
+
+}
+
+button {
+    margin-left: 100px;
+}

@@ -22,7 +22,7 @@ public void withdraw(double ammountToWithdraw) {
     withdraw(ammountToWithdraw);  }
 
     else if (ammountToWithdraw <= (getBalance() + overdraftLimit))
-    double overdraft = getBalance() - ammountToWithdraw; 
+    overdraftLimit = getBalance() - ammountToWithdraw; 
     withdraw(ammountToWithdraw);
 
 }
